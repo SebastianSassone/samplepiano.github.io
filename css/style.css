@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(54, 52, 52);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+header h1{
+    color: gold;
+    font-size: 70px;
+    font-family: Californian FB;
+    position: fixed;
+    margin-bottom: 20rem;
+    
+}
+
+header div{
+    border: 3px solid goldenrod;
+    margin-top: 50px;
+    height: 135px;
+    width: 10%;
+    border-radius: 3000px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    box-shadow: 5px 5px 5px rgba(228, 194, 0, 0.44);
+    background-color: black;
+} 
+
+header div:hover{
+    box-shadow: 8px 8px 8px rgba(228, 194, 0, 0.76);
+    height: 143px;
+    width: 10.5%;
+    font-size: 33px;
+    background-color: rgba(218, 165, 32, 0.104);
+}
+
+.section_piano{
+    display: none;
+    margin-top: 50px;
+}
+
+.parte_superior{
+    height: 50px;
+    width: 48%;
+    border: 4px solid rgb(57, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27.5%;
+}
+
+.parte_superior p{
+    color: gold;
+    font-size: 30px;
+    font-family: Californian FB;
+}
+
+.container{
+    display: flex;
+    border: 10PX groove rgba(103, 98, 98, 0.8);
+    height: 250px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(14, 4, 105);
+    padding: 10px;
+}
+
+.tecla{
+    height: 225px;
+    width: 11%;
+    background-color: white;
+    border-right: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.tecla:hover{
+    margin-top: 2px;
+    height: 227px;
+}
+
+.even_tecla_style{
+    justify-content: center;
+    position: relative;
+    margin-top: 200px;
+}
+
+.contenedor_teclas_negras{
+    display: flex;
+}
+
+.teclas_negras{
+    height: 150px;
+    width: 3%;
+    background-color: black;
+    border: 4px outset rgb(112, 101, 101);
+    display: flex;
+    justify-content: center;
+}
+
+.tecla_negra_n°{
+    position: relative;
+    margin-top: 130px;
+    color: white;
+}
+
+.teclas_negras:hover{ 
+    margin-top: 2px;
+    height: 152px;
+}
+
+#tecla_negraD04{
+    position: fixed;
+    margin-left: 45px;
+}
+
+#tecla_negraRE4{
+    position: fixed;
+    margin-left: 114px;
+}
+
+#tecla_negraFA4{
+    position: fixed;
+    margin-left: 250px;
+}
+
+#tecla_negraSOL4{
+    position: fixed;
+    margin-left: 320px;
+}
+
+#tecla_negraLA4{
+    position: fixed;
+    margin-left: 385px;
+}
+
+#tecla_negraDO5{
+    position: fixed;
+    margin-left: 520px;
+}
+
+#tecla_negraRE5{
+    position: fixed;
+    margin-left: 590px;
+}
+
+
+
+
+.contenedor_tabla_de_notas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.tabla_de_notas_text{
+    background-color: rgb(120, 73, 16);
+    width: 55%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_tabla_de_notas h2{
+    color: black;
+    font-family: Californian FB;
+}
+
+.contenedor_tabla_de_notas p{
+    color: black;
+    font-family: Californian FB;
+    cursor: pointer;
+
+    border: 1px solid black;
+    width:14%;
+    background-color: black;
+    color: white;
+
+}
+
+#button_mostrar_tabla{
+    display: none;
+    border: 1px solid black;
+    width:14%;
+    background-color: black;
+    color: white;
+}
+
+
+.contenedor_tabla_de_notas p:hover{
+    background-color: rgba(0, 0, 0, 0.56);
+}
+#button_mostrar_tabla:hover{
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.tabla_de_notas{
+   flex-direction: column;
+   height: 190px;
+   border: 1px solid rgb(135, 106, 106);
+   color: white;
+   background-color: rgb(120, 73, 16);
+   width: 55%;
+   
+}
+
+.tabla_de_notas tr{
+    border: 1px solid rgb(135, 106, 106);
+    color: black;
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    font-family: Californian FB;
+    font-size: 20PX;
+}
+
+.tabla_de_notas th{
+    border: 1px solid rgb(135, 106, 106);
+    color: black;
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    font-family: Californian FB;
+    font-size: 20PX;
+}
+
+.tabla_de_notas td{
+    border: 1px solid rgb(135, 106, 106);
+    color: black;
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    font-family: Californian FB;
+    font-size: 20PX;
+}
