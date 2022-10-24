@@ -281,19 +281,3 @@ let aptreta = document.getElementById('even_tecla_RE4').addEventListener('keydon
 })
 
 
-// let teclas_blancas = document.querySelectorAll('.tecla')
-
-// for(let i = 0; i <teclas_blancas.length; i++){
-//   teclas_blancas[i].addEventListener('keypress', () => {
-//       teclas_blancas[i].style.heigth = '280px'    
-//       //teclas_blancas[i].style.margin-top = '2px';
-//   })
-// }
-
-// teclas_blancas.addEventListener(, () => {
-//   teclas_blancas.style.
-//   teclas_blancas.style.backgroundColor = 'red';
-//   //  ' height: 227px;'
-//   //   margin-top: 2px;
-//   //   height: 152px;
-// } )
