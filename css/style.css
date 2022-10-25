@@ -156,9 +156,6 @@ header div:hover{
     margin-left: 590px;
 }
 
-
-
-
 .contenedor_tabla_de_notas{
     display: flex;
     justify-content: center;
@@ -192,7 +189,6 @@ header div:hover{
     width:14%;
     background-color: black;
     color: white;
-
 }
 
 #button_mostrar_tabla{
@@ -203,21 +199,21 @@ header div:hover{
     color: white;
 }
 
-
 .contenedor_tabla_de_notas p:hover{
     background-color: rgba(0, 0, 0, 0.56);
 }
+
 #button_mostrar_tabla:hover{
     background-color: rgba(0, 0, 0, 0.56);
 }
 
 .tabla_de_notas{
-   flex-direction: column;
-   height: 190px;
-   border: 1px solid rgb(135, 106, 106);
-   color: white;
-   background-color: rgb(120, 73, 16);
-   width: 55%;
+    flex-direction: column;
+    height: 190px;
+    border: 1px solid rgb(135, 106, 106);
+    color: white;
+    background-color: rgb(120, 73, 16);
+    width: 55%;
    
 }
 
@@ -250,3 +246,11 @@ header div:hover{
     font-family: Californian FB;
     font-size: 20PX;
 }
+
+.teclas_blancas_ev{
+    margin-top: 2px;
+    height: 227px;}
+    
+.teclas_negras_ev{
+    margin-top: 2px;
+    height: 152px}
